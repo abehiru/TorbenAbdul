@@ -1,0 +1,104 @@
+\documentclass[12pt]{article}%
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{booktabs,caption,fixltx2e}
+\usepackage{amssymb}
+\usepackage{subcaption}
+\usepackage{color,graphicx}
+\usepackage{epstopdf}
+\usepackage{graphicx}
+%\usepackage{accents}
+\usepackage{pdflscape}
+\usepackage{enumerate}
+\usepackage{accents}
+\newcommand{\ubar}[1]{\underaccent{\bar}{#1}} %% to underbar math texts
+\usepackage{natbib}
+ \usepackage[usenames,dvipsnames]{pstricks}
+ \usepackage{epsfig}
+ \usepackage{pst-grad} % For gradients
+ \usepackage{pst-plot} % For axes
+ \usepackage[space]{grffile} % For spaces in paths
+ \usepackage{etoolbox} % For spaces in paths
+ \usepackage{geometry}
+\geometry{
+ a4paper,
+ top=1in,
+ left=1in,
+ bottom=1in, 
+ right=1in}
+ \makeatletter % For spaces in paths
+ \patchcmd\Gread@eps{\@inputcheck#1 }{\@inputcheck"#1"\relax}{}{}
+ \makeatother
+%\usepackage{fancyhdr}
+%\usepackage[margins]{trackchanges}%% use the "disable" option to disable list of %todos; ; finalnew [margins]
+%\usepackage[hidelinks]{hyperref}
+%\usepackage{parano,xspace,times}
+%\def\prepara{\thinspace}
+%\def\prepara{\textbf{\P}\thinspace}
+%material to be inserted before the number
+%\def\postpara{\quad}
+ %material to be added after the number
+%\renewcommand\theparano{\textbf{[\arabic{parano}]}}
+\definecolor{darkblue}{rgb}{0,0,1}
+\newcommand*{\myalign}[2]{\multicolumn{1}{#1}{#2}}
+%\renewcommand{\thesection}{\arabic{section}}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{acknowledgement}[theorem]{Acknowledgement}
+\newtheorem{algorithm}[theorem]{Algorithm}
+\newtheorem{axiom}[theorem]{Axiom}
+\newtheorem{case}[theorem]{Case}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{conclusion}[theorem]{Conclusion}
+\newtheorem{condition}[theorem]{Condition}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{criterion}[theorem]{Criterion}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{exercise}[theorem]{Exercise}
+\newtheorem{lemma}{Lemma}
+\newtheorem{notation}[theorem]{Notation}
+\newtheorem{problem}[theorem]{Problem}
+\newtheorem*{proposition}{Proposition}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{solution}[theorem]{Solution}
+\newtheorem{summary}[theorem]{Summary}
+
+\title{Research ideas on resources, economic development and political economy}
+\author{Torben Mideksa and Abdulaziz B. Shifa}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+\section{Ideas on urbanization and democratization}
+\begin{itemize}
+    \item A higher political power by urban residents could stifle/promote democratization depending on their number. Egypt is a clear case. The urban people overthrew Mubarak. But the rural supporters of Muslim Brotherhood ended up taking the government. This resulted in opposition against the elected government from the urban people. The opposition was calling for army rule. We saw similar experience in Thailand too. The low level of support for democratization in China could also be due to the highly privileged position that urban residents have in China. Many of the couple detas in Africa that were instigated by urban based revolutions didn't result in democratic transitions. What you said about resources could also fit into this story where resource revenues make it easier to buy urban support
+ Democratization may also be a threat to minority urban residents due to the prospect of sharing the resources with rural people.
+
+So we may consider building a model capturing these ideas. Empirically examination would also be even more interesting if we can come up with credible identification. 
+\end{itemize}
+\section{Ideas on resources}
+\begin{itemize}
+     
+\item Coming back to your suggestion on renewables, I think the question is interesting and the answer is non-trivial. I assume that the bigger macro question you have in mind is: what potential the sun resource has for unleashing economic development in the continent and the globe? 
+
+One important factor is the potential for resource curse. In this regard, a crucial variable would be the amount of resource rent that one can extract from "the sale of sunlight". By resource rent, I mean the portion of revenue from solar power (i.e. power generated from sunlight, rather than the sunlight itself) that can be captured by the "sunlight owner". In the case of oil, for example, if the oil price is 100 USD per barrel, part of this price reflects extraction costs and the other part reflects resource rents (e.g. in the form of royalties to governments in oil producing countries). The question then is: how large can the size of resource rent (royalties) be from the sale of solar power? This should crucially depend on the supply of sunlight and the level of competition among sunlight owners. If the supply is unlimited and the competition among sunlight owners is very high, the resource rent from solar power would be driven to zero.
+
+The production technology is also important. The welfare effect of owning sun-light should depend on the production technology. If the production of solar power is labor-intensive, then some of the gain might be captured by African countries in the form of employment income. But if the production is capital-intensive, it may be very hard for African countries to make income from export of solar power---the competition among sunlight suppliers drives down resource rent and taxing capital income could be very difficult due to the relatively easy mobility of capital across national borders. Hence, most of the income might be captured by capital owners (most likely international investors). There is also a question of why do African countries care about investment in solar power to begin with if the equilibrium outcome is such that they end up with little benefit. So we may end up in a situation where African countries do not provide sufficient incentive for investment in solar power, and, as a result, we may end up with inefficiently low level of investment in solar power. So the lack of resource rent may lead to a different type of "resource-curse".
+
+Another relevant question is the cost of transporting electricity through grids from Africa to nearby continents (including Europe). This is something you have the expertise. Let's consider two extreme scenarios: the cost of transport is  (1) infinity and (2) zero. What is the implication of the transport cost for resource rents, resource curse and location of production? For example, if countries can't export the electricity, firms can relocate their production activities. That is, when the cost of transporting electricity through grids is prohibitively expensive, the production of energy-intensive products should relocate to energy-rich locations. This may counter the forces driving resource curse since, with low level of resource rent, political entrepreneurs  may have limited room to get rich through resource rents. Instead, in order to attract investment in energy-intensive products, they will rather have the incentive to make the environment more conducive for investment.  In that sense, solar power could be a resource blessing.
+
+I see a great potential in this question. We need to decide on our focal question. One possibility could be the following model.
+
+Consider the production of solar power in a world with two regions: north and south (or a continuum of countries on the north-south line, i.e. "distance from the sun"). The south is rich in sunlight. The north is rich in capital. We may ask
+\begin{enumerate}
+    \item  How efficient is the equilibrium level of power production? How does the efficiency depend on the cost of transporting solar power and production technology?
+    \item Which region benefits more/less?
+    \item What are the political economy implications (here we can consider a short-cut assumption that resource rents create perverse effect)?
+    \item What are the implications for taxes/subsidies on/to the production of solar power?
+\end{enumerate}
+\end{itemize}
+\end{document}
